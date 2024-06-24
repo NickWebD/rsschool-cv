@@ -6,7 +6,8 @@
 - **GitHub**: [NickWebD] https://github.com/NickWebD
 - **Phone**: +7(911)218-15-31
 - **Telegram**: @Isenhor
-- **Discord**: isenhor
+- **Discord**: Isenhor (@NickWebD)
+
 
 ## About Me
 
