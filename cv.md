@@ -45,3 +45,16 @@ function solution(str, ending) {
 
 02.2024-05.2024 [Lucky Group] https://lucky-group.com/
 HTML coder
+
+## Education
+
+* Incomplete Higher Education - Smolny Institute - manager-economist
+* Webcademy course on website creation and layout
+* The Odin Project course on frontend development(in progress)
+
+## Languages
+
+* English - B2
+
+I've interacted extensively with English-speaking tourists during my time working in hotels and restaurants.
+I understand and speak well, read documentation, watch movies and videos.
