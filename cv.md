@@ -40,3 +40,8 @@ function solution(str, ending) {
  return str.endsWith(ending);
 }
 ```
+
+## Job experience
+
+02.2024-05.2024 [Lucky Group] https://lucky-group.com/
+HTML coder
