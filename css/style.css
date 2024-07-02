@@ -208,6 +208,7 @@ svg {
 .section__item {
   position: relative;
   padding-left: 30px;
+  font-size: 18px;
 }
 
 .section__item::before {
@@ -244,6 +245,9 @@ svg {
 }
 
 .section__item--marked::before {
+  width: 14px;
+  height: 14px;
+  top: 8px;
   background-image: url("../assets/svg/6.svg");
 }
 
