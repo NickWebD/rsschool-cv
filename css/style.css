@@ -65,7 +65,7 @@ svg {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .section--half {
@@ -241,6 +241,10 @@ svg {
 
 .section__item--discord::before {
   background-image: url("../assets/svg/5.svg");
+}
+
+.section__item--marked::before {
+  background-image: url("../assets/svg/6.svg");
 }
 
 .section__item + .section__item {
