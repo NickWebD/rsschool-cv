@@ -1,27 +1,114 @@
+/* variables */
+:root {
+
+  /* colors */
+  --accent-color: #07617c;
+  --main-text-color: #4d2323;
+  --dark-text: #000000;
+
+  /* fonts */
+  --font-family: "Satoshi", sans-serif;
+  --second-family: "Clash Display", sans-serif;
+
+  /* outline */
+  --outline: 2px dashed currentColor;
+  --outline-offset: 3px;
+}
+
+/* general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* Fonts */
 @font-face {
   font-family: "Satoshi";
-  src: url("../fonts/SatoshiRegular.woff2");
+  src: url("../assets/fonts/SatoshiRegular.woff2");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "ClashDisplay";
-  src: url("../fonts/ClashDisplayRegular.woff2");
+  src: url("../assets/fonts/ClashDisplayRegular.woff2");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Clash Display";
-  src: url("../fonts/ClashDisplayMedium.woff2");
+  src: url("../assets/fonts/ClashDisplayMedium.woff2");
   font-weight: 500;
   font-display: swap;
+}
+
+/* header */
+.header {
+  padding: 40px 0;
+  background-color: var(--accent-color);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav__item {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nav__link {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link:focus {
+  outline: none;
+}
+
+.nav__link:focus-visible {
+  outline: var(--outline);
+  outline-offset: var(--outline);
+}
+
+.nav__link:hover {
+  color: var(--main-text-color);
+}
+
+.nav__link:active {
+  color: var(--dark-text);
 }
