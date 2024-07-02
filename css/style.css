@@ -282,3 +282,8 @@ svg {
 .section__text + .section__text {
   padding-top: 15px;
 }
+
+/* code section */
+.section__code {
+  font-size: 18px;
+}
