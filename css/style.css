@@ -89,6 +89,10 @@ svg {
   color: var(--accent-color);
 }
 
+.logo:focus {
+  outline: none;
+}
+
 /* Fonts */
 @font-face {
   font-family: "Satoshi";
@@ -113,7 +117,7 @@ svg {
 
 /* header */
 .header {
-  padding: 40px 0;
+  padding: 30px 0;
   background-color: var(--accent-color);
 }
 
@@ -155,9 +159,11 @@ svg {
 
 /* hero section */
 .hero__content {
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 15px solid var(--accent-color);
 }
 
 .hero__image img {
@@ -198,13 +204,6 @@ svg {
 }
 
 /* contacts */
-.contacts {
-}
-.section__content {
-}
-.section__list {
-}
-
 .section__item {
   position: relative;
   padding-left: 30px;
@@ -290,4 +289,49 @@ svg {
 /* code section */
 .section__code {
   font-size: 18px;
+}
+
+/* footer */
+.footer {
+  padding: 30px 0;
+  background-color: var(--accent-color);
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  color: #ffffff;
+}
+
+.copyright__text {
+  font-size: 20px;
+}
+
+.copyright__link {
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.copyright__link:focus {
+  outline: none;
+}
+
+.copyright__link:focus-visible {
+  outline: var(--outline);
+  outline-offset: var(--outline);
+}
+
+.copyright__link:hover {
+  color: var(--main-text-color);
+}
+
+.copyright__link:active {
+  color: var(--dark-text);
 }
