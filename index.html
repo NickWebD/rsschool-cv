@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="./assets/fonts/SatoshiRegular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./assets/fonts/ClashDisplayRegular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./assets/fonts/ClashDisplayMedium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV#2. HTML, CSS &amp; Git Basics</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav__list">
+               <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+               <li class="nav__item"><a class="nav__link" href="#summary">Summary</a></li>
+               <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+               <li class="nav__item"><a class="nav__link" href="#code">Code example</a></li>
+               <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+               <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+               <li class="nav__item"><a class="nav__link" href="#courses">Courses</a></li>
+               <li class="nav__item"><a class="nav__link" href="#lang">Languages</a></li>
+            </ul>
+          </nav>
+          <!-- burger -->
+          <button class="burger" type="button">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+      </div>
+   </header>
+    <main class="main">
+
+      <!-- hero -->
+      <section class="section hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__image">
+              <img src="./assets/img/avatar.jpg" width="200" height="200" alt="Nikolay - junior front-end dev">
+            </div>
+            <div class="hero__description">
+              <h1 class="hero__title main-title">Nikolay Shinkarenko</h1>
+              <p class="hero__text">Junior front-end developer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- //hero -->
+
+  <div class="container container--flex">
+    <!-- contacts -->
+    <section class="contacts section section--half" id="contacts">
+       <h2 class="section-title">Contacts</h2>
+       <div class="section__content">
+          <ul class="section__list">
+             <li class="section__item section__item--address">
+                <span class="highlight">Saint-Petersbourg, Russia</span>
+             </li>
+             <li class="section__item section__item--email">
+              <span class="highlight">E-mail:</span>
+                <a class="section__link" href="mailto:nschink89@gmail.com" target="_blank" rel="noreferrer noopener">nschink89@gmail.com</a>
+             </li>
+             <li class="section__item section__item--git">
+              <span class="highlight">GitHub:</span>
+              <a class="section__link" href="https://github.com/NickWebD" target="_blank" rel="noreferrer noopener">NickWebD</a>
+             </li>
+             <li class="section__item section__item--tg">
+              <span class="highlight">Telegram:</span>
+              <a class="section__link" href="https://t.me/Isenhor" target="_blank" rel="noreferrer noopener">@Isenhor</a>
+             </li>
+             <li class="section__item section__item--discord">
+              <span class="highlight">Discord:</span>
+              <a class="section__link" href="https://discord.gg/3j2S2SSv" target="_blank" rel="noreferrer noopener">Isenhor (@NickWebD)</a>
+             </li>
+          </ul>
+       </div>
+    </section>
+    <!-- //contacts -->
+
+    <!-- summary -->
+    <section class="summary section section--half" id="summary">
+      <h2 class="section-title">Summary</h2>
+      <p class="section__text">I became interested in web development when I stumbled upon a course on the basics of HTML. Upon completing it, I was able to build a simple website, sparking a desire to delve deeper into this field. Gradually, I started working on more complex projects, learning something new each time and mastering new technologies and tools.</p>
+      <p class="section__text">My goal is to become a highly skilled professional in web development, capable not only of creating functional and aesthetically appealing interfaces but also of applying cutting-edge technologies to solve complex problems.</p>
+   </section>
+   <!-- //summary -->
+
+   <!-- skills -->
+    <section class="skills section section--half" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="section__list">
+        <li class="section__item section__item--marked">
+           <span class="highlight">HTML&CSS</span>
+        </li>
+        <li class="section__item section__item--marked">
+          <span class="highlight">SASS/SCSS</span>
+        </li>
+        <li class="section__item section__item--marked">
+          <span class="highlight">Gulp/Pug</span>
+        </li>
+        <li class="section__item section__item--marked">
+          <span class="highlight">JS</span>
+        </li>
+        <li class="section__item section__item--marked">
+          <span class="highlight">Git</span>
+        </li>
+        <li class="section__item section__item--marked">
+          <span class="highlight">Figma, Photoshop</span>
+        </li>
+     </ul>
+    </section>
+    <!-- //skills -->
+
+    <!-- code example -->
+    <section class="code section section--half" id="code">
+      <h2 class="section-title">Code example</h2>
+      <div class="section__code">
+        <pre>
+      <code>
+function solution(str, end) {
+return str.endsWith(end);
+}
+      </code>
+    </pre>
+      </div>
+   </section>
+    <!-- //code example -->
+
+    <!-- projects -->
+    <section class="projects section section--half" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <ul class="section__list">
+        <li class="section__item section__item--marked">
+          <a class="section__link" href="https://nickwebd.github.io/rock-paper-scissors/" target="_blank" rel="noreferrer noopener">Rock, paper, scissors</a>
+        </li>
+        <li class="section__item section__item--marked">
+          <a class="section__link" href="https://nickwebd.github.io/etch-a-sketch/" target="_blank" rel="noreferrer noopener">Etch-a-sketch</a>
+        </li>
+      </ul>
+    </section>
+    <!-- //projects -->
+
+    <!-- education -->
+    <section class="education section section--half" id="education">
+      <h2 class="section-title">Education</h2>
+      <ul class="section__list">
+        <li class="section__item section__item--marked">
+          <span class="highlight">Incomplete Higher Education - Smolny Institute - manager-economist</span>
+        </li>
+      </ul>
+    </section>
+    <!-- //education -->
+
+    <!-- courses -->
+    <section class="courses section section--half" id="courses">
+      <h2 class="section-title">Courses</h2>
+      <ul class="section__list">
+        <li class="section__item section__item--marked">
+          <span class="highlight">Webcademy course on website creation and layout</span>
+        </li>
+        <li class="section__item section__item--marked">
+          <span class="highlight">The Odin Project course on frontend development(in progress)</span>
+        </li>
+      </ul>
+    </section>
+    <!-- //courses -->
+
+    <!-- languages -->
+    <section class="languages section section--half" id="lang">
+      <h2 class="section-title">Languages</h2>
+      <span class="highlight">English &mdash; B2</span>
+      <p class="section__text">I've interacted extensively with English-speaking tourists during my time working in hotels and restaurants.
+        I understand and speak well, read documentation, watch movies and videos.</p>
+    </section>
+    <!-- //languages -->
+</div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a class="logo" href="https://rs.school/courses/javascript-ru">
+            <img src="./assets/svg/rss.svg" alt="RS School logo" width="150" height="45">
+          </a>
+          <div class="copyright">
+            <a class="copyright__link" href="https://github.com/NickWebD" >NickWebD</a>
+            <p class="copyright__text">&copy;2024</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+     <script src="./js/main.js"></script>
+ </body>
+</html>
