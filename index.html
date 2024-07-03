@@ -15,15 +15,23 @@
       <div class="container">
          <nav class="nav">
             <ul class="nav__list">
-               <li class="nav__item"><a class="nav__link" href="!#">Contacts</a></li>
-               <li class="nav__item"><a class="nav__link" href="!#">Summary</a></li>
-               <li class="nav__item"><a class="nav__link" href="!#">Skills</a></li>
-               <li class="nav__item"><a class="nav__link" href="!#">Code example</a></li>
-               <li class="nav__item"><a class="nav__link" href="!#">Job experience</a></li>
-               <li class="nav__item"><a class="nav__link" href="!#">Education</a></li>
-               <li class="nav__item"><a class="nav__link" href="!#">Languages</a></li>
+               <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+               <li class="nav__item"><a class="nav__link" href="#summary">Summary</a></li>
+               <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+               <li class="nav__item"><a class="nav__link" href="#code">Code example</a></li>
+               <li class="nav__item"><a class="nav__link" href="#job">Job experience</a></li>
+               <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+               <li class="nav__item"><a class="nav__link" href="#courses">Courses</a></li>
+               <li class="nav__item"><a class="nav__link" href="#lang">Languages</a></li>
             </ul>
-         </nav>
+          </nav>
+          <!-- burger -->
+          <button class="burger" type="button">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
       </div>
    </header>
     <main class="main">
@@ -75,7 +83,7 @@
     <!-- //contacts -->
 
     <!-- summary -->
-    <section class="summary section section--half">
+    <section class="summary section section--half" id="summary">
       <h2 class="section-title">Summary</h2>
       <p class="section__text">I became interested in web development when I stumbled upon a course on the basics of HTML. Upon completing it, I was able to build a simple website, sparking a desire to delve deeper into this field. Gradually, I started working on more complex projects, learning something new each time and mastering new technologies and tools.</p>
       <p class="section__text">My goal is to become a highly skilled professional in web development, capable not only of creating functional and aesthetically appealing interfaces but also of applying cutting-edge technologies to solve complex problems.</p>
@@ -83,7 +91,7 @@
    <!-- //summary -->
 
    <!-- skills -->
-    <section class="skills section section--half">
+    <section class="skills section section--half" id="skills">
       <h2 class="section-title">Skills</h2>
       <ul class="section__list">
         <li class="section__item section__item--marked">
@@ -109,13 +117,13 @@
     <!-- //skills -->
 
     <!-- code example -->
-    <section class="code section section--half">
+    <section class="code section section--half" id="code">
       <h2 class="section-title">Code example</h2>
       <div class="section__code">
         <pre>
       <code>
-function solution(str, ending) {
-return str.endsWith(ending);
+function solution(str, end) {
+return str.endsWith(end);
 }
       </code>
     </pre>
@@ -124,7 +132,7 @@ return str.endsWith(ending);
     <!-- //code example -->
 
     <!-- job experience -->
-    <section class="job section section--half">
+    <section class="job section section--half" id="job">
       <h2 class="section-title">Job experience</h2>
       <ul class="section__list">
         <li class="section__item section__item--marked">
@@ -137,7 +145,7 @@ return str.endsWith(ending);
     <!-- //job experience -->
 
     <!-- education -->
-    <section class="education section section--half">
+    <section class="education section section--half" id="education">
       <h2 class="section-title">Education</h2>
       <ul class="section__list">
         <li class="section__item section__item--marked">
@@ -148,7 +156,7 @@ return str.endsWith(ending);
     <!-- //education -->
 
     <!-- courses -->
-    <section class="courses section section--half">
+    <section class="courses section section--half" id="courses">
       <h2 class="section-title">Courses</h2>
       <ul class="section__list">
         <li class="section__item section__item--marked">
@@ -162,7 +170,7 @@ return str.endsWith(ending);
     <!-- //courses -->
 
     <!-- languages -->
-    <section class="languages section section--half">
+    <section class="languages section section--half" id="lang">
       <h2 class="section-title">Languages</h2>
       <span class="highlight">English &mdash; B2</span>
       <p class="section__text">I've interacted extensively with English-speaking tourists during my time working in hotels and restaurants.
